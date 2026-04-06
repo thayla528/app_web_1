@@ -1,0 +1,330 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    font-family: Arial, sans serif;
+    font-size: 1em;
+}
+
+.menu {
+    background-color: deepskyblue;
+    width: 100%;
+    height: 50px;
+}
+
+.menu ul {
+    list-style-type: none;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.menu ul li {
+    padding: 10px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.conteudo h1 {
+    margin: 10px;
+    text-align: center;
+    font-size: 50px;
+}
+
+.home {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: calc(100vh - 50px);
+    background: azure;
+}
+
+.texto-left {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+
+    /*background-image: url("/static/img/senai.jpg");*/
+    /*background-size: cover;*/
+    /*background-position: center;*/
+    /*background-repeat: no-repeat;*/
+}
+
+.calculos {
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 10px;
+    padding: 10px;
+}
+
+.calculos a {
+    color: black;
+    font-family: "Arial Black", sans-serif;
+}
+
+.calculos a:hover {
+    color: white;
+}
+
+.card_calculo {
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    background-color: lightskyblue;
+}
+
+.card_operacao {
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.form-somar {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    padding: 14px;
+}
+
+.operador {
+    font-size: 26px;
+}
+
+.icon_calculo {
+    font-size: 40px;
+    color: white;
+}
+
+.formas {
+    max-width: 100%;
+    flex-wrap: nowrap;
+}
+
+.central {
+    width: 100%;
+    height: 100vh;
+}
+
+
+.carrossel {
+    height: 100vh;
+}
+
+
+.title-senai {
+    font-family: "Bangers", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.subtitle-senai {
+    font-family: "Alumni Sans Pinstripe", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.cursos {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+
+
+.text-description {
+    font-family: "Bitcount Prop Double Ink", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "slnt" 0,
+    "CRSV" 0.5,
+    "ELSH" 0,
+    "ELXP" 0,
+    "SZP1" 0,
+    "SZP2" 0,
+    "XPN1" 0,
+    "XPN2" 0,
+    "YPN1" 0,
+    "YPN2" 0;
+}
+
+
+.curso-text {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.curso-img {
+    height: 100%;
+    overflow: hidden;
+
+    /*background-image: url("/static/img/senai.jpg");*/
+    /*background-size: cover;*/
+    /*background-position: center;*/
+    /*background-repeat: no-repeat;*/
+}
+
+.subtitle-cursos {
+    font-family: "Alumni Sans Pinstripe", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 2em;
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    letter-spacing: -0.5px;
+}
+
+.animais {
+    height: calc(100vh - 50px);
+}
+
+.img-wrapper {
+    background: #12141d;
+    border-radius: 0.75rem;
+    overflow: hidden;
+    aspect-ratio: 1 / 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.img-placeholder {
+    color: rgba(255, 255, 255, 0.15);
+    font-size: 4rem;
+    user-select: none;
+}
+
+body {
+            background-color: #f8fafc;
+            font-family: 'Inter', sans-serif;
+            color: #1e293b;
+        }
+        h1, h2, h3, .font-display {
+            font-family: 'Lexend', sans-serif;
+        }
+        .hero-gradient {
+            background: linear-gradient(135deg, #e0f2fe 0%, #f0f9ff 100%);
+            border-bottom: 1px solid #e2e8f0;
+        }
+        .breed-card {
+            transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+            border-radius: 1rem;
+            overflow: hidden;
+            border: 1px solid #e2e8f0;
+        }
+        .breed-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+        }
+        .breed-img-container {
+            position: relative;
+            min-height: 250px;
+        }
+        .origin-badge {
+            position: absolute;
+            top: 1rem;
+            left: 1rem;
+            background: rgba(255, 255, 255, 0.9);
+            backdrop-filter: blur(4px);
+            color: #475569;
+            font-size: 0.75rem;
+            font-weight: 600;
+            padding: 0.25rem 0.75rem;
+            border-radius: 50rem;
+            border: 1px solid #f1f5f9;
+        }
+        .btn-pet-dark {
+            background-color: #0f172a;
+            color: white;
+            border-radius: 0.75rem;
+            padding: 0.625rem 2rem;
+            font-size: 0.875rem;
+            font-weight: 500;
+        }
+        .btn-pet-dark:hover {
+            background-color: #1e293b;
+            color: white;
+        }
+        .badge-active {
+            background-color: #e0f2fe;
+            color: #0369a1;
+            font-size: 10px;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            padding: 0.35em 0.65em;
+        }
+        .logo-box {
+            background-color: #fb923c;
+            padding: 8px;
+            border-radius: 8px;
+            display: inline-flex;
+        }
+        footer {
+            background-color: #0f172a;
+            color: #94a3b8;
+        }
+        footer h3 {
+            color: white;
+        }
+        .btn-pet-accent {
+            background-color: #fb923c;
+            border-color: #fb923c;
+            color: white;
+        }
+        .btn-pet-accent:hover {
+            background-color: #f97316;
+            border-color: #f97316;
+            color: white;
+        }
+        .pagination .page-link {
+            color: #475569;
+            border-radius: 0.5rem;
+            margin: 0 2px;
+        }
+        .pagination .active .page-link {
+            background-color: #fb923c;
+            border-color: #fb923c;
+        }
+        .navbar-search-container {
+            max-width: 600px;
+            width: 100%;
+        }
